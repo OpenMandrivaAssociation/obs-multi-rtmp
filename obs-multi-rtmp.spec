@@ -1,4 +1,5 @@
 %global optflags %{optflags} -Wno-error -Wno-deprecated-literal-operator
+%global optflags %{optflags} -Wno-deprecated-declarations
 
 Summary:	OBS multi-site streaming plugin
 Name:		obs-multi-rtmp
