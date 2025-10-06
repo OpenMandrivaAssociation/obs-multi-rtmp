@@ -10,6 +10,7 @@ Source0:	https://github.com/sorayuki/obs-multi-rtmp/archive/%{version}/%{name}-%
 BuildRequires:	cmake ninja
 BuildRequires:  pkgconfig(libobs)
 BuildRequires:  pkgconfig(simde)
+BuildRequires:  pkgconfig(nlohmann_json)
 BuildRequires:  vulkan-headers
 BuildRequires:  glslc
 BuildRequires:  glslang
