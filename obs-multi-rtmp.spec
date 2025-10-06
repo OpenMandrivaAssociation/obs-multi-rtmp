@@ -33,6 +33,7 @@ OBS multi-site streaming plugin
 %prep
 %autosetup -n %{name}-%{version} -p1
 %cmake  \
+    -DENABLE_QT=ON \
     -G Ninja
 
 %build
