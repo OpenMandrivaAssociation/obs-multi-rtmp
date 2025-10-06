@@ -16,6 +16,15 @@ BuildRequires:  glslang
 BuildRequires:  pkgconfig(vulkan)
 BuildRequires:  pkgconfig(x11)
 BuildRequires:  pkgconfig(opengl)
+BuildRequires:	cmake(Qt6)
+BuildRequires:	cmake(Qt6Core)
+BuildRequires:	cmake(Qt6DBus)
+BuildRequires:	cmake(Qt6Gui)
+BuildRequires:  cmake(Qt6Svg)
+BuildRequires:	cmake(Qt6OpenGL)
+BuildRequires:	cmake(Qt6Network)
+BuildRequires:	cmake(Qt6Widgets)
+BuildRequires:  cmake(Qt6Xml)
 
 Requires: obs-studio
 
