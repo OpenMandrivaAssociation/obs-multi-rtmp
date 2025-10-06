@@ -47,3 +47,5 @@ OBS multi-site streaming plugin
 %ninja_install -C build
 
 %files
+%{_libdir}/obs-plugins/obs-multi-rtmp.so
+%{_datadir}/obs/obs-plugins/obs-multi-rtmp/
