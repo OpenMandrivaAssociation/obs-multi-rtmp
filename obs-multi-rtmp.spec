@@ -3,7 +3,7 @@
 
 Summary:	OBS multi-site streaming plugin
 Name:		obs-multi-rtmp
-Version:	0.7.3.1
+Version:	0.7.3.2
 Release:	1
 License:	GPLv2.0
 Group:		Video
